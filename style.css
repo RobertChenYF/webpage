@@ -1,0 +1,31 @@
+/* CSS files add styling rules to your content */
+
+
+
+body {
+  /*font-family: helvetica, arial, sans-serif;*/
+  
+  font-family: 'Lacquer', sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  /*color: #373fff;*/
+  color.grey;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+grey {
+  color.grey;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
