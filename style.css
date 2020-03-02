@@ -1,26 +1,63 @@
 /* CSS files add styling rules to your content */
 
 
+@import url('https://fonts.googleapis.com/css?family=Muli|Quicksand&display=swap');
 
 body {
   /*font-family: helvetica, arial, sans-serif;*/
   
   font-family: 'Lacquer', sans-serif;
   margin: 2em;
+  font-size: 20pt;
+  
 }
 
-h1 {
-  font-style: italic;
-  /*color: #373fff;*/
-  color.grey;
+p {
+  font-family: 'Muli', sans-serif;
+  color: white;
+  font-size: 20pt
+  
+}
+
+h1, h4{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 30pt;
+}
+  
+@keyframes colorChange {
+  0%   {color: red;}
+  14%  {color: orange;}
+  28%  {color: yellow;}
+  43%  {color: green;}
+  56%  {color: cyan;}
+  70%  {color: blue;}
+  85%  {color: purple;} 
+  100% {color: DarkMagenta;}
+} 
+
+#ColorChangeAnimation {
+    
+  animation-name: colorChange;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+body.white {
+    color: white;
+    font-family: 'Muli', sans-serif;
 }
 
 table, th, td {
   border: 1px solid black;
 }
 
-grey {
-  color.grey;
+iframe{
+  width: 100%
+  height: auto;
 }
 
 img {
@@ -28,4 +65,26 @@ img {
     height: auto;
 }
 
+
+a:link {
+  
+  color: black;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  text-decoration: underline;
+}
 
