@@ -1,5 +1,12 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
 
-// prints "hi" in the browser's dev tools console
-console.log("hi");
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#flip").fadeOut();
+    $("#panel").slideDown("slow");
+  });
+});
+$(document).ready(function(){
+  $("#changeColorButton").click(function(){
+    $("#changeColor").css("background-color", "yellow");
+  });
+});

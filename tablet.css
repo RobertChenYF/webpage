@@ -14,16 +14,17 @@ background-color:  #f0ffff;
     grid-template-columns: auto auto;
     background-color: grey;
     padding: 10px;
+  margin-top: 40px;
 }
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  margin:10px;
-  font-size: 30px;
-  text-align: center;
-  height:200px;
+  
+ 
+ 
+  
+  
+  
+  
 }
 
 
@@ -48,12 +49,22 @@ div{
   margin-left: 10px;
 
 }
+div.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 a:link {
   
   color: black;
   text-decoration: none;
 }
 
+#panel {
+
+  display: none;
+}
 
 a:visited {
   color: black;
@@ -78,8 +89,10 @@ div.logo{
 
 }
 .Icon {
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: auto;
+  margin: auto;
+  display:none;
 }
 div.Index{
   margin-bottom: 20px;
@@ -99,6 +112,13 @@ div.main{
 
   
    padding-top: 90px;
+}
+button{
+  float: left;
+   width: 40%;
+    height: auto;
+  margin-top: 40px;
+
 }
 div.shortText{
  text-align: center;
