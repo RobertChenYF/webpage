@@ -44,19 +44,50 @@
       </div>
     </div>
     
-  </head>
-  
-  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#button1").click(function(){
+    $("#button1").fadeOut();
+    $("#div1").fadeIn();
     
-    <div class="grid-container">
-  <div class="grid-item"><img
-          class="logo"
-          src="https://cdn.glitch.com/f13ef1da-376f-48fe-8195-d1a6d5311ca7%2FkfDOPr.png?v=1587527183211"
-        /></div>
-  <div class="grid-item">2</div>
+  });
+  $("#button2").click(function(){
+    $("#button2").fadeOut();
+    $("#div2").fadeIn();
+    
+  });
+});
+    </script>
+   
+  </head>
 
- 
-</div>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">
+        <p id = "button1">
+            Diver-00
+          </p>
+        <a href="secondPage.html">
+          
+          <img id="div1" 
+          class = "Icon"
+          src="https://cdn.glitch.com/f13ef1da-376f-48fe-8195-d1a6d5311ca7%2FkfDOPr.png?v=1587527183211"
+        /></a>
+        
+        
+      </div>
+      <div class="grid-item">
+        <p id = "button2">
+            Pigeon War
+          </p>
+        <a href="thirdPage.html"><img id = "div2"
+          class="Icon"
+          src="https://cdn.glitch.com/f13ef1da-376f-48fe-8195-d1a6d5311ca7%2FPpT2n8.png?v=1587528251668"
+        /></a>
+        
+      </div>
+    </div>
+   
   </body>
-  
 </html>
