@@ -6,8 +6,7 @@ $("nav c").on("click", function (event) {
   
   window.history.pushState(null, null, href)
   
-  $("nav c").removeClass("active")
-  $(this).addClass("active")
+  
   
   $.ajax({
     url: href,
