@@ -13,8 +13,8 @@
   <div class="nav">
     <nav>
   	<c href="transitiona.html" >Home</c>
-    <c href="transitionb.html" class="active">About Me</c>
-    <c href="transitionc.html">Contact</c>
+    <c href="transitionb.html">About Me</c>
+    <c href="transitionc.html" class="active">Contact</c>
   </nav>
     </div>
           <link
@@ -41,33 +41,47 @@
   
   <body>
     <section>
- <h1>Robert Chen</h1>
+ <h1>Contact</h1>
+     <form id = "form"
+  action="https://formspree.io/xaypywbz"
+  method="POST"
+>
+      <br>
+   <div class = "center">
      
     
+     <label class = "center">
+       Your Name*:<br>
+    <input type="text" name="name" required/>
+  </label>
+     <br><br>
+  <label class = "center">
+    Your Email*:<br>
+    <input type="email" name="_replyto" required/>
+  </label>
+      <br><br>
+  <label class = "center">
+    <p>Your Message:</p><br>
+    
+    <textarea type = "text" name = "_message"> </textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+<br>
+     <div class = "button">
+  <button class = "button" type="submit">Send</button>
+     </div>
+      </div>
+     
+</form>
+    <script>
+      $("#form").validate();
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+    
    
-
-    <div class="main">
-      <div class="myPicture">
-        <img
-          class="center"
-          src="https://cdn.glitch.com/f13ef1da-376f-48fe-8195-d1a6d5311ca7%2Frsz_1img_6228_3.png?v=1580337149980"
-        />
-      </div>
-
-      <div class="leftMain">
-        <div class="shortText">
-          Yifan Chen is a game designer based in New York City and Shanghai. He
-          is currently a second year game design BFA. He enjoys playing unique
-          games that explore new genres and expand boundaries.
-        </div>
-      </div>
-    </div>
- 
-
-
-
-
-
 <script src="transition.js"></script>
     </section>
   </body>

@@ -20,7 +20,55 @@ body {
   margin-top: 60px;
 }
 
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
 
+.button {
+  
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+div.button{
+  margin: auto;
+  padding-top:40px;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+iframe{
+     
+   
+   display:block;
+   left: 0;
+   
+   top: 0;
+   width: 100%;
+  
+}
 #panel {
 
   display: none;
@@ -39,13 +87,24 @@ div.nav {
   justify-content: center;
   align-items: center;
 }
-
+div.center{
+  margin-top:20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
 li.nav {
   display: inline;
   margin-right: 10px;
   margin-left: 10px;
 }
-
+div.form{
+      float: none;
+    margin-bottom: 40px;
+    margin-top: 1px;
+    max-width: 600px;
+    width: 100%;
+}
 
 c {
   
@@ -60,13 +119,14 @@ c {
 
 c:hover {
   background-color:  #a6a6a6;
+  cursor: pointer;
 }
 
 c:active {
   box-shadow: none;
   top: 5px;
 }
-b{
+a.nav{
   
     background-color: #696969;
   box-shadow: 0 5px 0 #404040;
@@ -77,11 +137,12 @@ b{
   text-transform: uppercase;
 }
 
-b:hover {
+a.nav:hover {
   background-color:  #a6a6a6;
+  cursor: pointer;
 }
 
-b:active {
+a.nav:active {
   box-shadow: none;
   top: 5px;
 }
